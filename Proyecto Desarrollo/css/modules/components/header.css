@@ -1,9 +1,0 @@
-.header {
-    position: fixed;
-    z-index: 50;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background-color: rgba(255,252,252,255);
-    box-shadow: 0 0 0.5rem 0 rgba(0,154,225,255);
-  }
