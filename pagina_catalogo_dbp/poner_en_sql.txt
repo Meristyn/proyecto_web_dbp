@@ -13,23 +13,23 @@ CREATE TABLE products (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 INSERT INTO products (id, type, image, name, description, price) VALUES
-(1, 'Cámaras', 'camara1.jpg' ,'camara1', 'descripcion', 3000),
-(2, 'Cámaras', 'camara2.jpg' ,'camara2', 'descripcion', 3000),
-(3, 'Cámaras', 'camara3.jpg' ,'camara3', 'descripcion', 3000),
-(4, 'Cámaras', 'camara4.jpg' ,'camara4', 'descripcion', 3000),
-(5, 'Cámaras', 'camara5.jpg' ,'camara5', 'descripcion', 3000),
-(6, 'Cámaras', 'camara6.jpg' ,'camara6', 'descripcion', 3000),
-(7, 'Alarmas', 'alarma1.jpg' ,'alarma1', 'descripcion', 3000),
-(8, 'Alarmas', 'alarma2.jpg' ,'alarma1', 'descripcion', 3000),
-(9, 'Alarmas', 'alarma3.jpg' ,'alarma1', 'descripcion', 3000),
-(10, 'Alarmas', 'alarma4.jpg' ,'alarma1', 'descripcion', 3000),
-(11, 'Alarmas', 'alarma5.jpg' ,'alarma5', 'descripcion', 3000),
-(12, 'Biométrico', 'biometrica1.jpg' ,'bio', 'descripcion', 3000),
-(13, 'Biométrico', 'biometrica2.jpg' ,'bio', 'descripcion', 3000),
-(14, 'Biométrico', 'biometrica3.jpg' ,'bio', 'descripcion', 3000),
-(15, 'Biométrico', 'biometrica4.jpg' ,'bio', 'descripcion', 3000),
-(16, 'Biométrico', 'biometrica5.jpg' ,'bio', 'descripcion', 3000),
-(17, 'Biométrico', 'biometrica6.jpg' ,'bio', 'descripcion', 3000)
+(1, 'Cámaras', 'camara1.jpg' ,'DOMO INT 720P ', 'descripcion', 3000),
+(2, 'Cámaras', 'camara2.jpg' ,'CAM IP PT INTER', 'descripcion', 3000),
+(3, 'Cámaras', 'camara3.jpg' ,'CAM IP PT INTER 2MP', 'descripcion', 3000),
+(4, 'Cámaras', 'camara4.jpg' ,'TUBO1080P EXT', 'descripcion', 600),
+(5, 'Cámaras', 'camara5.jpg' ,'KIT CAMARA IP', 'descripcion', 300),
+(6, 'Cámaras', 'camara6.jpg' ,'CAMARA IP PT', 'descripcion', 500),
+(7, 'Alarmas', 'alarma1.jpg' ,'TECLADO LCD', 'descripcion', 300),
+(8, 'Alarmas', 'alarma2.jpg' ,'KIT ALARMA', 'descripcion', 500),
+(9, 'Alarmas', 'alarma3.jpg' ,'KIT ALARMA WIFI', 'descripcion', 400),
+(10, 'Alarmas', 'alarma4.jpg' ,'ZOCALO CON SIRENA', 'descripcion', 200),
+(11, 'Alarmas', 'alarma5.jpg' ,'MAGNETICO SEMI PESADO', 'descripcion', 150),
+(12, 'Biométrico', 'biometrica1.jpg' ,'Biometrico con huella', 'descripcion', 324),
+(13, 'Biométrico', 'biometrica2.jpg' ,'Biometrico con tarjeta', 'descripcion', 85),
+(14, 'Biométrico', 'biometrica3.jpg' ,'Biometrica total', 'descripcion', 65),
+(15, 'Biométrico', 'biometrica4.jpg' ,'Biometrica con bluetooth', 'descripcion', 63),
+(16, 'Biométrico', 'biometrica5.jpg' ,'Biometrica con reconocimiento', 'descripcion', 56),
+(17, 'Biométrico', 'biometrica6.jpg' ,'Biometrica dactilar', 'descripcion', 96)
 ;
 
 CREATE TABLE users (

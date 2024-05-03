@@ -2,7 +2,7 @@
 <nav class="navbar fixed-top navbar-expand-sm navbar-dark" style="background-color:rgba(0,0,0,0.5)">
     <div class="container">
         <!-- Logo -->
-        <a href="index.php" class="navbar-brand" style="font-family: 'Delius Swash Caps'">Tech21</a>
+        <a href="index.php" class="navbar-brand" style="font-family: 'Delius Swash Caps'">Tech21 Security</a>
         <!-- Botón para dispositivos móviles -->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mynavbar">
             <span class="navbar-toggler-icon"></span>
