@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.bt {
+    position: fixed;
+    z-index: 50;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255,252,252,255);
+    box-shadow: 0 0 0.5rem 0 rgba(0,154,225,255);
+} 
+
+
+body{
+    font-family: "Poppins", sans-serif;
+}
+.parte1 {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 1.5em;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+
+.ho{
+    background-image: linear-gradient(
+        rgba(0,0,0,0.7),
+        rgba(0,0,0,0.7)), url(./imagenes/principal.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 150vh;
+    display: flex;
+    align-items: center;
+    
+}
+.conte{
+    text-align: center;
+}
+.conte h1{
+    
+    font-size: 70px;
+    line-height: 80px;
+    color:#d4c6c6;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+}
+.conte p{
+    font-size: 16px;
+    color:#ece0e0;
+    padding: 0 250px;
+    margin-bottom: 25px;
+}
+.primero .parte1 ul li{
+    position: relative;
+    float: right;
+}
+
+.primero .parte1 ul li a{
+    font-size: 18px;
+    padding: 20px;
+    color: #d4c6c6;
+    display: block;
+    font-weight: 600;
+
+}
+
+.contenido p{
+    float: left;
+}
+.btn-1{
+    display: inline-block;
+    padding: 11px 35px;
+    background-color: #d4c6c6;
+    color: #504949;
+    text-align: center;
+    text-transform: uppercase;
+    
+
+}
+
+.btn-1:hover{
+    background-color: #e0c2e7;
+}
+
+
+
+/* Estilos del catálogo */
+.productos {
+    padding: 1.5em;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tipos {
+    margin: 1.5em;
+    padding: 1.5em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    flex: 1 0 300px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(83, 85, 85, 0.1);
+    display: flex;
+    flex-direction: column; 
+}
+
+.ima {
+
+    max-width: 100%; 
+    height: auto; 
+    border-radius: 20px;
+    flex-grow: 1;
+}

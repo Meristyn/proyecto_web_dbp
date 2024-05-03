@@ -1,0 +1,17 @@
+.img {
+    display: block;
+  }
+  
+  .img--logo {
+    width: auto;
+    height: 80px;
+  }
+  
+  .img--product{
+    width: 256px;
+    border-radius: 2rem;
+  }
+  .img--hero {
+    width: 512px;
+    height: auto;
+  }

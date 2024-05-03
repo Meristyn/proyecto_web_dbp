@@ -1,0 +1,32 @@
+.hero {
+    position: relative;
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    overflow: hidden;
+    background-color: #CCCCCC;
+  }
+  
+  .hero::before,
+  .hero::after {
+    content: '';
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50vh;
+    height: 50vh;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0,154,225,255);
+  }
+  
+  .hero::before {
+    top: 0;
+    left: 100%;
+  }
+  
+  .hero::after {
+    top: 100%;
+    left: 0;
+  }

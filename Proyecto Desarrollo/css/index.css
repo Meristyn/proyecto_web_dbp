@@ -1,0 +1,28 @@
+@import './modules/variables/variables.css';
+@import './modules/layouts/container.css';
+@import './modules/layouts/flexbox.css';
+@import './modules/layouts/grid-layout.css';
+@import './modules/layouts/section.css';
+@import './modules/layouts/title.css';
+@import './modules/components/header.css';
+@import './modules/components/nav.css';
+@import './modules/components/hero.css';
+@import './modules/components/list.css';
+@import './modules/components/card.css';
+@import './modules/content/button.css';
+@import './modules/content/link.css';
+@import './modules/content/img.css';
+@import './modules/utils/utils.css';
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.body {
+  margin: 0;
+  background-color: #666666;
+  font-family: var(--primary-font-family);
+}
