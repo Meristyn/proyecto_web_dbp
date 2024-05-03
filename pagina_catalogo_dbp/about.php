@@ -27,7 +27,7 @@ session_start(); // Inicia la sesión para mantener la información del usuario
           <h3 class="text-warning pt-3 title">¿Quiénes somos?</h3>
           <hr />
           <img
-            src="https://images.unsplash.com/photo-1490578474895-699cd4e2cf59?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&h=400&q=80"
+            src="images/logo.png"
             class="img-fluid d-block rounded mx-auto image-thumbnail">
           <p class="mt-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed atque, consequuntur cumque odit
             sapiente blanditiis, expedita ipsam molestiae voluptates reprehenderit ea modi eaque rerum dicta dolores,

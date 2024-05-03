@@ -3,7 +3,7 @@ require "includes/basedatos.php";
 session_start();
 
 $user_id = $_SESSION['user_id'];
-$query = "UPDATE users_products SET status='Confirmado' WHERE user_id='$user_id' AND status='Añadido a la Carreta'";
+$query = "UPDATE users_products SET status='Confirmado' WHERE user_id='$user_id' AND status='added'";
 mysqli_query($con, $query);
 ?>
 <!DOCTYPE html>

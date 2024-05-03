@@ -8,7 +8,7 @@ session_start();
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Tech21 | Tienda virtual</title>
+    <title>Tech21 Security | Tienda virtual</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" >
     <link href='https://fonts.googleapis.com/css?family=Delius Swash Caps' rel='stylesheet'>
@@ -25,40 +25,40 @@ include 'includes/comprobar.php'; // Incluye el archivo de comprobación
 
     <!-- Contenido principal -->
     <div id="content">
-        <div id="bg" class=" ">
+        <div id="bg" class="contenidop">
             <div class="container" style="padding-top:150px">
             <div class="mx-auto p-5 text-white" id="banner_content" style="border-radius: 0.5rem;" >
-            <h1>Vendemos felicidad :)</h1>
-            <p>¡40% de descuento en marcas premium!</p>
+            <h1>Sentirse seguro es importante</h1>
+            <p>Compra y consulta con profesionales tu mejor opción</p>
             <a href="products.php" class="btn btn-warning btn-lg text-white">Comprar ahora</a>
             </div>
             </div>
         </div>
     </div>
     <div class="text-center pt-4 h3">
-        *Sé actualizado*
+        Productos
     </div>
     <!-- Menú destacado -->
     <div class="container pt-3">
         <div class="row text-center ">
             <div class="col-6 col-md-3 py-3">
-                <a href="products.php#watch"> <img src="images/watch.jpg" class="img-fluid " alt="" style="border-radius:0.5rem">
+                <a href="products.php#camaras"> <img src="images/fondo1.jpg" class="img-fluid " alt="" style="border-radius:0.5rem">
                     <div class="h5 pt-3 font-weight-bolder">
                       Cámaras
                    </div>
                  </a>
              </div>
             <div class="col-6 col-md-3 py-3 " >
-                <a href="products.php#shirt"  >
-                  <img src="images/clothing.jpg" class="img-fluid zoom" alt="" style="border-radius:0.5rem" >
+                <a href="products.php#alarmas"  >
+                  <img src="images/fondo2.jpg" class="img-fluid zoom" alt="" style="border-radius:0.5rem" >
                      <div class="h5 pt-3 font-weight-bolder">
                         Alarmas
                      </div>
                   </a>
              </div>
             <div class="col-6 col-md-3 py-3">
-                <a href="products.php#shoes">
-                 <img src="images/shoes.jpg" class="img-fluid   " alt="" style="border-radius:0.5rem">
+                <a href="products.php#biometricas">
+                 <img src="images/biometricas.jpg" class="img-fluid   " alt="" style="border-radius:0.5rem">
                 <div class="h5 pt-3 font-weight-bolder">
                     Biométricas
                  </div>

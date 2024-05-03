@@ -6,7 +6,7 @@ function cart($item_id) {
     require("basedatos.php"); // Incluye el archivo de la base de datos
    
     // Consulta para verificar si el producto está añadido al carrito para el usuario actual
-    $query = "SELECT * FROM users_products WHERE item_id='$item_id' AND user_id ='$user_id' and status='Añadido a la Carreta'";
+    $query = "SELECT * FROM users_products WHERE item_id='$item_id' AND user_id ='$user_id' and status='added'";
     $result = mysqli_query($con, $query); // Ejecuta la consulta
 
     // Si se encuentra al menos una fila que coincide con la consulta, devuelve 1, de lo contrario, devuelve 0

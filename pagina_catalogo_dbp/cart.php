@@ -35,7 +35,7 @@ include 'includes/header_menu.php';
             // Obtiene el ID de usuario de la sesión actual
             $user_id = $_SESSION['user_id'];
             // Consulta para obtener los productos añadidos al carrito por el usuario actual
-            $query = " SELECT products.price AS Price, products.id, products.name AS Name FROM users_products JOIN products ON users_products.item_id = products.id WHERE users_products.user_id='$user_id' and status='Añadido a la Carreta'";
+            $query = " SELECT products.price AS Price, products.id, products.name AS Name FROM users_products JOIN products ON users_products.item_id = products.id WHERE users_products.user_id='$user_id' and status='added'";
             $result = mysqli_query($con, $query);
             // Si hay productos en el carrito, muestra la tabla
             if (mysqli_num_rows($result) >= 1) {
