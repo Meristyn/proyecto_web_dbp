@@ -57,6 +57,7 @@ include 'includes/comprobar.php';
             // Verifica si hay productos de este tipo
             if (mysqli_num_rows($products_result) > 0) {
     ?>
+                <h2><?php echo $product_type; ?></h2>
                 <div class="row text-center" id="<?php echo $product_type; ?>">
                     <?php
                     // Recorre los productos de este tipo
@@ -67,7 +68,8 @@ include 'includes/comprobar.php';
                                 <img src="images/<?php echo $product_row['image']; ?>" alt="" class="img-fluid pb-1">
                                 <div class="figure-caption">
                                     <h6><?php echo $product_row['name']; ?></h6>
-                                    <h6>Price: <?php echo $product_row['price']; ?> soles</h6>
+                                    <h6><?php echo $product_row['description']; ?></h6>
+                                    <h6>Precio: <?php echo $product_row['price']; ?> soles</h6>
                                     <?php
                                     // Lógica para verificar si el usuario ha iniciado sesión y si el producto está en el carrito
                                     if (!isset($_SESSION['email'])) {

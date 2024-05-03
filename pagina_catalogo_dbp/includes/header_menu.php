@@ -13,9 +13,9 @@
                 <li class="nav-item dropdown">
                     <a href="" class="nav-link dropdown-toggle" id="navbar-drop" data-toggle="dropdown">Productos</a>
                     <div class="dropdown-menu">
-                        <a href="products.php#camaras" class="dropdown-item">Cámaras</a>
-                        <a href="products.php#alarmas" class="dropdown-item">Alarmas</a>
-                        <a href="products.php#biometricas" class="dropdown-item">Biométricas</a>
+                        <a href="products.php#Cámaras" class="dropdown-item">Cámaras</a>
+                        <a href="products.php#Alarmas" class="dropdown-item">Alarmas</a>
+                        <a href="products.php#Biométrico" class="dropdown-item">Biométricas</a>
                     </div>
                 </li>
                 <!-- Enlace a Ofertas -->

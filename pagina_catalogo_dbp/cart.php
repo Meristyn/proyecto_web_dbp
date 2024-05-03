@@ -13,7 +13,7 @@ if (!isset($_SESSION['email'])) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Tech21 | Tienda virtual</title>
+    <title>Tech21 Security | Tienda virtual</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" >
     <link href='https://fonts.googleapis.com/css?family=Delius Swash Caps' rel='stylesheet'>
@@ -42,7 +42,7 @@ include 'includes/header_menu.php';
                 ?>
                 <thead>
                     <tr>
-                        <th>Número del Artículo</th>
+                        <th>Id del Artículo</th>
                         <th>Nombre del Artículo</th>
                         <th>Precio</th>
                         <th></th>
@@ -54,11 +54,11 @@ include 'includes/header_menu.php';
                 while ($row = mysqli_fetch_array($result)) {
                     $sum += $row["Price"];
                     $id = $row["id"] . ", ";
-                    echo "<tr><td>" . "#" . $row["id"] . "</td><td>" . $row["Name"] . "</td><td>Rs " . $row["Price"] . "</td><td><a href='cart-remove.php?id={$row['id']}' class='remove_item_link'> Eliminar</a></td></tr>";
+                    echo "<tr><td>" . "#" . $row["id"] . "</td><td>" . $row["Name"] . "</td><td>S/. " . $row["Price"] . "</td><td><a href='cart-remove.php?id={$row['id']}' class='remove_item_link'> Eliminar</a></td></tr>";
                 }
                 $id = rtrim($id, ", ");
                 // Muestra el total y un botón para confirmar la orden
-                echo "<tr><td></td><td>Total</td><td>Rs " . $sum . "</td><td><a href='success.php' class='btn btn-primary'>Confirmar Orden</a></td></tr>";
+                echo "<tr><td></td><td>Total</td><td>S/. " . $sum . "</td><td><a href='success.php' class='btn btn-primary'>Confirmar Orden</a></td></tr>";
                 ?>
                 </tbody>
                 <?php

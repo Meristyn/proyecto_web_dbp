@@ -42,14 +42,14 @@ include 'includes/comprobar.php'; // Incluye el archivo de comprobación
     <div class="container pt-3">
         <div class="row text-center ">
             <div class="col-6 col-md-3 py-3">
-                <a href="products.php#camaras"> <img src="images/fondo1.jpg" class="img-fluid " alt="" style="border-radius:0.5rem">
+                <a href="products.php#Cámaras"> <img src="images/fondo1.jpg" class="img-fluid " alt="" style="border-radius:0.5rem">
                     <div class="h5 pt-3 font-weight-bolder">
                       Cámaras
                    </div>
                  </a>
              </div>
             <div class="col-6 col-md-3 py-3 " >
-                <a href="products.php#alarmas"  >
+                <a href="products.php#Alarmas"  >
                   <img src="images/fondo2.jpg" class="img-fluid zoom" alt="" style="border-radius:0.5rem" >
                      <div class="h5 pt-3 font-weight-bolder">
                         Alarmas
@@ -57,7 +57,7 @@ include 'includes/comprobar.php'; // Incluye el archivo de comprobación
                   </a>
              </div>
             <div class="col-6 col-md-3 py-3">
-                <a href="products.php#biometricas">
+                <a href="products.php#Biométrico">
                  <img src="images/biometricas.jpg" class="img-fluid   " alt="" style="border-radius:0.5rem">
                 <div class="h5 pt-3 font-weight-bolder">
                     Biométricas
