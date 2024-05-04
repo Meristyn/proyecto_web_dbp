@@ -38,7 +38,6 @@ include 'includes/comprobar.php';
         <!--breadcrumb end-->
     <hr/>
     <!--menu list-->
-    <!-- CHAT GPT -->
     <?php
     require "includes/basedatos.php";
     // Consulta para obtener todos los tipos de productos
