@@ -66,7 +66,7 @@ session_start(); // Inicia la sesión para mantener la información del usuario
   </div>
   <div class="container mt-3 d-flex justify-content-center card pb-3 col-md-6">
 
-    <form class="col-md-12" action="https://formspree.io/EnterYourEmail" method="POST" name="_next">
+    <form class="col-md-12" action="https://formspree.io/aqui_el_correo" method="POST" name="_next">
       <h3 class="text-warning pt-3 title mx-auto">Formulario de contacto</h3>
       <div class="form-group">
         <label for="exampleFormControlInput1">Correo electrónico</label>
