@@ -27,8 +27,8 @@ include 'includes/header_menu.php';
     <div class="container-fluid mt-5 pt-5" id="content" style="margin-bottom:200px">
             <div class="col-md-8 mx-auto">
                 <div class="jumbotron text-center">
-                      <h3>Your order is Confirmado. Thank you for shopping with us.</h3><hr>
-                    <p>Click <a href="products.php">here</a> to purchase any other item.</p>
+                      <h3>Tu orden ha sido confirmada. Gracias por tu compra.</h3><hr>
+                    <p>Clic <a href="products.php">aquí</a> para realizar una nueva compra.</p>
                 </div>
             </div>
         </div>
